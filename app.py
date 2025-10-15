@@ -33,15 +33,6 @@ with tabs[0]:
         area = np.pi * r**2
         perimetro = 2 * np.pi * r
 
-        # Dibujo
-       
-       
-       
-       
-       
-        ax.set_ylim(-r*1.2, r*1.2)
-        st.pyplot(fig)
-
     elif figura == "Triángulo":
         a = st.number_input("Lado a", min_value=0.0, value=3.0)
         b = st.number_input("Lado b (base)", min_value=0.0, value=4.0)

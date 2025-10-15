@@ -41,14 +41,6 @@ with tabs[0]:
         area = 0.5 * b * h
         perimetro = a + b + c
 
-        # Dibujo (triángulo isósceles como referencia)
-        fig, ax = plt.subplots()
-        x = [0, b/2, -b/2, 0]
-        y = [0, h, 0, 0]
-        ax.plot(x, y, color=color, linewidth=2)
-        ax.set_aspect('equal')
-        st.pyplot(fig)
-
     elif figura == "Rectángulo":
         b = st.number_input("Base (b)", min_value=0.0, value=4.0)
         h = st.number_input("Altura (h)", min_value=0.0, value=2.0)

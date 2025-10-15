@@ -38,7 +38,7 @@ with tabs[0]:
        
        
        
-        ax.set_xlim(-r*1.2, r*1.2)
+       
         ax.set_ylim(-r*1.2, r*1.2)
         st.pyplot(fig)
 

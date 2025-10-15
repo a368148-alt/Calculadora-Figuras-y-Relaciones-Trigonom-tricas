@@ -103,13 +103,6 @@ with tabs[1]:
         y = amp * np.tan(x)
         y[np.abs(y) > 10] = np.nan  # limitar valores grandes
 
-    # Graficar
-    fig, ax = plt.subplots()
-    ax.plot(x, y, color="purple", linewidth=2)
-    ax.set_title(f"{funcion} con amplitud {amp}")
-    ax.set_xlabel("x (radianes)")
-    ax.set_ylabel("y")
-    ax.grid(True)
-    st.pyplot(fig)
+
 
 
